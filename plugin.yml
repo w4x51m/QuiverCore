@@ -1,0 +1,5 @@
+name: QuiverCore
+main: Quiver\Core\QuiverCore
+api: 3.8.6
+version: 1
+author: W4X51M
