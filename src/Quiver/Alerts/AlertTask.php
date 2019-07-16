@@ -15,18 +15,18 @@ class AlertTask extends Task {
 
     public function onRun($currentTick){
         $input = array(
-        "Follow us on Twitter: @QuiverMC",
+        "Right now, you are seeing this message.",
         "More features soon!",
         "Check out Our app to buy ranks and register on the forums!",
         "Hope you have Fun!",
-        "Hacking is NOT allowed on QMC servers servers, Disable client mods before playing",
+        "Hacking is NOT allowed , Disable client mods before playing",
         "You will always be by my side, oh sorry I was singing",
 
         "We know are server is not perfect we will always try to improve :)",
-        "Any Ideas for the server? Message us on Twitter @QuiverMC",
+        "Any Ideas for the server? Be sure to get in touch!",
         "It works better if you plug it in.",
         "I have not lost my mind, it's backed up on disk",
-        "Thanks for playing on QuiverMC!",
+        "Thanks for playing!",
 
         "Buy ranks on our app to support us!",
         "Having fun?",
@@ -42,9 +42,9 @@ class AlertTask extends Task {
 
         "Everything takes longer than you think.",
         "Whenever possible blame the Hardware",
-        "Pirate software comes with a treasure map",
+        "Pirated software comes with a treasure map",
         "Moderators can be annoying sometimes, but we all love them :)",
-        "1000 subs on Youtube can get you a cool youtube rank!",
+        "What brings you here today?",
 
         "Do not ask to be Moderator",
         "Need Help? Try typing /help",
