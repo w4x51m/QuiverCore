@@ -50,6 +50,6 @@ class NPCTask extends Task{
 	}
 
 	protected function startTask(string $type, int $tick){
-		Main::getInstance()->getScheduler()->scheduleDelayedTask(new NPCTask($type, $this->getEntity()), $tick);
+		QuiverCore::getInstance()->getScheduler()->scheduleDelayedTask(new NPCTask($type, $this->getEntity()), $tick);
 	}
 }
