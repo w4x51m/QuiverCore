@@ -18,6 +18,8 @@ use pocketmine\network\mcpe\protocol\MoveActorAbsolutePacket;
 use pocketmine\Player;
 use pocketmine\entity\Entity;
 use pocketmine\utils\TextFormat;
+use Quiver\Bot\BotEntity;
+use Quiver\Bot\NPCTask;
 
 //chat filter
 use Quiver\ChatFilter\ChatFilter;
